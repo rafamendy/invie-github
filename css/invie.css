@@ -1,0 +1,337 @@
+/*
+{
+  /*
+  PARAMETROS DEL DISPLAY
+  padding
+  se puede especificar los parametros
+  padding-top: 10px;
+  padding-right: 13px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+
+  o se puede hacer por parametros en una linea
+  padding: 10px 13px 5px 15px;
+
+  padding: 10px;
+  /*
+  margin
+  se puede especificar los parametros
+  margin-top: 10px;
+  margin-right: 13px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+
+  o se puede hacer por parametros en una linea
+  margin: 10px 13px 5px 15px;
+
+  margin: 10px;
+  /*border: 2px solid red;*
+  border: 2px;
+
+}
+*/
+
+body
+{
+  margin: 0px;
+  font-family: 'Allerta', sans-serif;
+
+}
+
+
+table
+{
+  width: 100%;
+  margin: 50px;
+}
+th
+{
+background: #273b47;
+color: white;
+}
+
+th
+{
+  padding: 10px;
+  text-align: left;
+}
+td
+{
+  padding: 20px;
+  color: #273b47;
+}
+table, td, th
+{
+  border: 2px solid #273b47;
+  border-collapse: collapse;
+}
+
+.background
+{
+  background-image: url('../images/background.png');
+  background-size: cover;
+}
+
+.col1 input:focus, textarea:focus
+{
+  background: lightgray;
+}
+
+.col1 input, textarea
+{
+  outline: 0;
+}
+
+
+.contenedor
+{
+  width: 900px;
+  margin: auto;
+}
+.logotipo
+{
+  display: inline-block;
+  margin: 30px 50px 20px 0px;
+}
+
+.menu
+{
+  display: inline-block;
+  font-size: 30px;
+}
+
+.portada
+{
+  /*font-family: 'Montserrat', sans-serif;*/
+  color: white;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+}
+.portada h3
+{
+  font-family: 'Allerta', sans-serif;
+}
+.titulo
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+.titulo span
+{
+  text-decoration: underline;
+}
+.title-a
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  margin-top: 1px;
+
+}
+.title-a h3
+{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+.boton
+{
+  margin: 40px 30px 15px 0px;
+  border-radius: 12px;
+
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,ff6600+75,c72200+100;Red+Gloss */
+background: #f3c5bd; /* Old browsers */
+background: -moz-linear-gradient(top,  #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
+
+  text-decoration: none;
+
+}
+.guitarras
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #1F313C;
+  margin-bottom: 10px;
+}
+.guitarras h2
+{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+}
+
+.derecha
+{
+  float: right;
+  position: relative;
+  top: -125px;
+}
+.izquierda
+{
+  float: left;
+  position: relative;
+  top: 50px;
+  margin-right: 130px;
+}
+.article
+{
+  border: 1px solid #1F313C;
+  border-radius: 5px 30px 8px 60px;
+  padding: 10px;
+  margin:  10px;
+}
+
+.contenedor-guitarras-a
+{
+  margin: 50px;
+}
+.contenedor-guitarras-b
+{
+  margin: 30px 50px;
+  position: relative;
+  bottom: 30px;
+}
+
+
+.ol
+{
+  margin: 10px solid orange;
+}
+.header
+{
+  position: relative;
+}
+
+.footer
+{
+  display: flex;
+  background: #273b47;
+  padding: 30px;
+
+}
+.footer .contenedor
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.formulario1
+{
+  display: block;
+  color: white;
+  width: 400px;
+  padding: 0px;
+  margin: 0px;
+
+}
+.formulario1 label
+{
+  margin: 3px;
+  padding: 3px;
+
+}
+
+.contacto
+{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 300px;
+  border: 5px;
+
+}
+
+.cont2
+{
+  display: flex;
+  margin: 30px 0px;
+
+}
+.cont2 a
+{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.formulario2
+{
+  color: white;
+}
+
+.col1
+{
+  display: flex;
+  align-content: space-around;
+  flex-direction: column;
+
+}
+.col2
+{
+  margin-left: 80px;
+}
+
+.comentarios
+{
+  display: flex;
+  margin: 30px;
+}
+.sexo
+{
+  margin: 10px;
+  border: 10px;
+  padding: 0px;
+}
+
+
+.intereses
+{
+  display: flex;
+  flex-direction: row;
+  margin: 15px 15px;
+  padding: 20px 10px;
+  border: 2px solid orange;
+  border-radius: 8px;
+  width: 200px;
+  align-items: start;
+}
+.Otros input
+{
+    margin-right: 50px;
+}
+
+
+.menu li:before
+{
+  content: '°';
+  font-size: 20px;
+  line-height: 20px;
+  color: white;
+
+
+}
+
+.menu li
+{
+  display: inline-block;
+}
+.menu a
+{
+  color: white;
+  text-decoration: none;
+
+}

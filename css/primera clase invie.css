@@ -1,0 +1,77 @@
+/* COMO SE IMPLEMENTA UN SELECTOR
+
+tipo de selector
+{
+propiedad: valor;
+}
+*/
+
+/* selector de universal*/
+*
+{
+  border: 1px solid red;
+  margin: 10px;
+}
+/* selector de etiqueta*/
+header
+{
+  background: orange;
+}
+
+section
+{
+  background: green;
+}
+
+/*SELECTOR DESCENDENTE --
+Lo más importante de css
+afecta la subetiqueta <h3>
+de una etiqueta padre <article>*/
+ article h3
+{
+  color: yellow;
+}
+
+/* SELECTORES DE CLASE
+tienen una sintaxis especial
+se utilizan cuando queremos darle el mismo estilo a varias etiquetas distintas en el HTML se coloca el atributo class en la etiqueta deseada:
+<h3 class="title-b"> Sé la estrella de rock que sonhaste ser</h3>
+…
+<h3 class="title-a">Invie Acústica</h3>
+…
+Se empieza con un “.” (punto)*/
+
+.title-a
+{
+  background: salmon;
+}
+
+.title-b
+{
+  background: orange;
+}
+
+/*SELECTOR DE id,
+se utiliza cuando queremos darle estilo
+ a una etiqueta unica, pore so se usa el
+  id de la misma pues es su identificador
+  exclusivo.
+  En una pagina HTML NO VAN A HABER DOS
+  ETIQUETAS CON EL MISMO id.
+  Se empieza con el # (hastag)
+  como se usa para invocarlo dentro
+   del HTML y se llama por su nombre de id*/
+#header
+{
+  border: 3px solid blue;
+}
+
+#guitarras
+{
+  border: 3px solid yellow;
+}
+
+#portada
+{
+  border: 3px solid brown;
+}

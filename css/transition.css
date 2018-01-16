@@ -1,0 +1,97 @@
+body
+{
+    background: green;
+    perspective: 1000px;
+}
+
+.contenedor
+{
+  margin: 0 auto;
+  width: 600px;
+  font-family: sans-serif;
+}
+
+.transicion
+{
+  /*duracion - aceleracion - propiedades
+  Desglosado:
+  transition-duration: 3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+  Abreviado:
+  transition: .3s opacity ease;*
+  quiere decir que si pongo solo la
+  duración, los otros valores van por defecto
+  todas las propiedades seran afectadas y
+  tipo de transicion sera ease*/
+  transition: 300ms;
+
+
+}
+
+.caja
+{
+  width: 200px;
+  height: 200px;
+  border: 2px solid orange;
+}
+
+.opacity /* 1 visible 0 invisible*/
+{
+  opacity: 0;
+}
+
+.opacity:hover /*seudoclase hover*/
+{
+  opacity: 1;
+
+}
+
+.fuente:hover
+{
+  font-size: 20px;
+  font-weight: 600px;
+}
+
+
+.colores:hover
+{
+  color: green;
+  background: yellow;
+  font-size: 60px;
+  font-weight: 600px;
+}
+
+.rotacion:hover
+{
+  transform: rotate(360deg);
+
+}
+
+.escala:hover
+{
+  transform: scale(2);
+
+}
+
+.sesgado:hover
+{
+  transform: skew(45deg);
+
+}
+
+
+.traslacion:hover
+{
+/*transform: translateX(50px);
+transform: translate3d(50px, 20px, 50px);
+transform: translateZ(50px); - va junto con el perspective en el body*/
+transform: translateX(50px);
+
+}
+
+.mixtas:hover
+{
+transform: rotate(45deg) scale(2) skew(45deg) translate(50px);
+
+}

@@ -1,0 +1,161 @@
+body
+{
+margin: 0;
+font-family: 'Open Sans', sans-serif;
+perspective: 10000px;
+}
+
+header
+{
+  background: #273847;
+  /*height: 50px;*/
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav
+{
+/*background: blue;*/
+float: right;
+position: absolute;
+right: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
+
+nav ul
+{
+  display: flex;
+  align-items: center;
+
+
+}
+
+
+
+nav li
+{
+  list-style: none;
+  /*margin: 0 10px;*/
+  color: white;
+}
+
+nav li:after
+{
+  content: "|";
+  border: 0;
+  margin: 5px;
+}
+nav a
+{
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+
+
+}
+
+.menu a
+{
+  border-top: 3px solid #7dcd40;
+}
+.menu:hover a
+{
+  border-top: 3px solid red;
+/*box-shadow: inset 0px 5px 5px black; sombra*/
+}
+
+.menu:active
+{
+    transform:scale(.9);
+    transition: .2;
+}
+
+.button_red
+{
+  margin-right: 10px;
+  border-radius: 12px;
+  color: white;
+  border: none;
+  padding: 7px 12px;
+  font-size: 11px;
+  cursor: pointer;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3c5bd+0,e86c57+50,ea2803+51,ff6600+75,c72200+100;Red+Gloss */
+  background: #f3c5bd; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
+  text-decoration: none;
+  transition: .2s;
+
+}
+
+.button_red:active
+{
+  transform:scale(.9);
+
+}
+
+
+.contenedor
+{
+  width: 1000px;
+  margin: 0 auto;/*esto centra la imagen*/
+}
+.portada
+{
+
+  position: relative;
+}
+
+.portada .description
+{
+
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  padding: 20px
+
+}
+
+.portada .description:hover
+{
+margin-left: 50px;
+margin-bottom: 50px;
+transform: scale(1.1);
+transition: .3s ;
+
+}
+
+.blog-items
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item-blog:hover
+{
+  transform: scale(1.1);
+  transition: .3s ;
+
+}
+
+
+.blog-items h3
+{
+font-size: 600;
+margin: 10px 0;
+}
+
+.item-blog
+{
+  width: 300px;/*con esto le digo a todas las imagenes de los items que tengan el mismo tamaño de 300px*/
+}
